@@ -27,12 +27,12 @@ enum Actions {
 
 // Reducer
 const reducer = (state, action) => {
-  switch (aciton.type) {
+  switch (action.type) {
     case Actions.INCR:
       return { count: count + 1 }
     case Actions.DECR:
       return { count: count - 1 }
-    case Actions.RESET
+    case Actions.RESET:
       return { count: 0 }
   }
 }

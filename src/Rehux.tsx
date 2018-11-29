@@ -15,7 +15,7 @@ export const createRehux = (initialState, reducer) => ({
       </RehuxContext.Provider>
     );
   },
-  useRehooks() {
+  useRehux() {
     const context = useContext(RehuxContext);
     return { state: context.state, dispatch: context.dispatch };
   }
