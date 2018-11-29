@@ -1,5 +1,7 @@
 # Rehux
 
+[![](https://badgen.net/npm/v/rehux)](https://npm.im/rehux)
+
 Yet another React state container like Redux, but based on React Hooks API.
 
 ## Install
