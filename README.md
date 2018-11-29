@@ -1,6 +1,10 @@
 # Rehux
 
 [![](https://badgen.net/npm/v/rehux)](https://npm.im/rehux)
+[![CircleCI](https://circleci.com/gh/djyde/rehux/tree/master.svg?style=shield)](https://circleci.com/gh/djyde/rehux/tree/master)
+[![install size](https://packagephobia.now.sh/badge?p=rehux)](https://packagephobia.now.sh/result?p=rehux)
+
+## Introduction
 
 Yet another React state container like Redux, but based on React Hooks API.
 
