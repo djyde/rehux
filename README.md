@@ -12,9 +12,9 @@ npm i rehux --save
 
 Here is just an example for showing how Rehux looks like. If your application is as simple as this, you might not need state management tool. Local state or local `useReducer` is fine.
 
-```tsx
-import { createRehux } from 'rehux'
+**Prepare the state and reducer**:
 
+```tsx
 // Global state
 const initialState = {
   count: 0
@@ -36,6 +36,12 @@ const reducer = (state, action) => {
       return { count: 0 }
   }
 }
+```
+
+**Using Rehux**:
+
+```tsx
+import { createRehux } from 'rehux'
 
 // Create Rehux
 const { Provider, useRehux } = createRehux(initialState, reducer)
