@@ -1,5 +1,7 @@
 {
+  "name": "rehux",
   "main": "lib/index.js",
+  "version": "0.0.1",
   "files": [
     "lib",
     "README.md"
@@ -7,7 +9,8 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
-    "test": "npm run build && jest"
+    "test": "npm run build && jest",
+    "prepublish": "npm run test"
   },
   "dependencies": {
     "typescript": "^3.1.6"
