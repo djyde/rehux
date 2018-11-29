@@ -1,0 +1,21 @@
+{
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.2"
+  },
+  "devDependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  }
+}
