@@ -1,5 +1,3 @@
-# Rehux
-
 ![](./assets/logo.png)
 
 [![](https://badgen.net/npm/v/rehux)](https://npm.im/rehux)
