@@ -1,5 +1,7 @@
 # Rehux
 
+![](./assets/logo.png)
+
 [![](https://badgen.net/npm/v/rehux)](https://npm.im/rehux)
 [![CircleCI](https://circleci.com/gh/djyde/rehux/tree/master.svg?style=shield)](https://circleci.com/gh/djyde/rehux/tree/master)
 [![install size](https://packagephobia.now.sh/badge?p=rehux)](https://packagephobia.now.sh/result?p=rehux)
